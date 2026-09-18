@@ -7,11 +7,14 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 3px; }
 h1 { font-family: Newsreader, Georgia, serif; font-weight: 500; font-size: 56px; line-height: 1.05; margin: 0 0 18px; letter-spacing: -0.01em; }
 .wrap { max-width: 860px; margin: 0 auto; padding: 56px 28px 64px; }
-.icons { margin: 0; display: flex; gap: 20px; align-items: center; }
+.icons { margin: 0 0 20px; display: flex; gap: 20px; align-items: center; }
 .icons img { height: 27px; opacity: .55; }
 .icons a:hover img { opacity: 1; }
 .hero { display: flex; gap: 56px; align-items: center; padding-top: 16px; }
-.hero > div { flex: 1 1 auto; }
+.hero > div { flex: 0 1 auto; }
+.hero .role { font-size: 18px; line-height: 1.6; margin: 0; }
+.hero .role a { color: var(--text); border-bottom: 1px solid #d6d6d6; }
+.hero .role a:hover { text-decoration: none; border-color: var(--text); }
 .portrait { width: 270px; height: 270px; object-fit: cover; object-position: center 20%; border-radius: 14px; display: block; flex: 0 0 auto; }
 .bio { font-size: 17.5px; line-height: 1.7; margin-top: 52px; }
 .bio p { margin: 0 0 18px; }
