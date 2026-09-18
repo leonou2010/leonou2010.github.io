@@ -27,8 +27,8 @@ footer { margin-top: 64px; padding-top: 18px; border-top: 1px solid var(--rule);
 .top .brand { font-family: Newsreader, Georgia, serif; font-size: 25px; font-weight: 500; color: var(--text); }
 .top .brand:hover { text-decoration: none; }
 .top nav { display: flex; gap: 26px; font-size: 17px; font-weight: 500; }
-.top nav a { color: var(--text); padding: 6px 14px; border: 1px solid #d6d6d6; border-radius: 999px; }
-.top nav a:hover, .top nav a.active { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+.top nav a { color: var(--muted); }
+.top nav a:hover, .top nav a.active { color: var(--text); text-decoration: none; }
 
 /* etc page */
 .wrap > h1.page { font-size: 44px; margin: 0 0 8px; }
