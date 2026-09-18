@@ -25,6 +25,9 @@ h1 { font-family: Newsreader, Georgia, serif; font-weight: 500; font-size: 56px;
 .hero > div { flex: 1 1 auto; }
 .portrait { width: 220px; height: 220px; object-fit: cover; object-position: center 20%; border-radius: 14px; display: block; flex: 0 0 auto; }
 .bio { font-size: 17.5px; line-height: 1.7; margin-top: 40px; }
+.bio p { margin: 0 0 18px; }
+.bio a { color: var(--text); border-bottom: 1px solid #d6d6d6; }
+.bio a:hover { text-decoration: none; color: var(--accent); border-color: var(--accent); }
 footer { margin-top: 64px; padding-top: 18px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); }
 @media (max-width: 720px) { .wrap { padding: 56px 20px 48px; } h1 { font-size: 42px; }
   .hero { flex-direction: column; align-items: flex-start; gap: 24px; } .portrait { order: -1; } }
@@ -39,7 +42,17 @@ footer { margin-top: 64px; padding-top: 18px; border-top: 1px solid var(--rule);
     </div>
     <img class="portrait" src="images/leon.jpg" alt="Leon Ou">
   </section>
-  <p class="bio">This is a placeholder bio for Leon Ou; a proper one is coming soon.</p>
+  <div class="bio">
+    <p>
+    I work on machine learning at Columbia University with <a href="https://goldblum.github.io/">Micah Goldblum</a> and <a href="https://abblock.github.io/">Adam Block</a>,
+    and I conduct course research with <a href="https://www.cs.columbia.edu/~johnhew/">John Hewitt</a>.
+    I moved to the United States for the same reason Oppenheimer went to Europe: to study where the field is being made.
+    </p>
+    <p>
+    Before that, I was an Assistant Vice President at Barclays Capital, doing research on AI and machine learning for managing multi-billion-dollar portfolios,
+    and I followed <a href="https://www.gavinfeng702.com/">Gavin Feng</a> in Hong Kong.
+    </p>
+  </div>
   <footer>Last update: September 2026</footer>
 </div>
 </body>
