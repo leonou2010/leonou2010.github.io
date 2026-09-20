@@ -5,6 +5,7 @@ body { margin: 0; background: #fff; color: var(--text);
   font-size: 17px; line-height: 1.65; }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+h2 { font-family: Newsreader, Georgia, serif; font-weight: 500; font-size: 28px; margin: 44px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); letter-spacing: -0.01em; }
 h1 { font-family: Newsreader, Georgia, serif; font-weight: 500; font-size: 56px; line-height: 1.05; margin: 0 0 18px; letter-spacing: -0.01em; }
 .wrap { max-width: 860px; margin: 0 auto; padding: 56px 28px 64px; }
 .icons { margin: 0 0 20px; display: flex; gap: 20px; align-items: center; }
